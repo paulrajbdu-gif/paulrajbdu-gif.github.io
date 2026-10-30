@@ -6,3 +6,9 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
 .product-card:first-child .photo{background-size:cover;background-position:center}
+
+/* Homepage background supplied by Dev Engineering. */
+.hero-art{background:#071524 url('assets/home-background.webp') center center/cover no-repeat;}
+.hero-art .photo{display:none;}
+.hero:after{background:linear-gradient(90deg,rgba(7,26,56,.72),rgba(7,26,56,.46));}
+@media(max-width:650px){.hero-art{background-position:62% center;}.hero:after{background:rgba(7,26,56,.62);}}
